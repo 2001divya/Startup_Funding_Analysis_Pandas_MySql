@@ -1,4 +1,4 @@
-# Startup Funding Analytics (Pandas + MySQL)
+## Startup Funding Analytics (Pandas + MySQL)
 
 An end-to-end data analytics project that explores the Indian startup funding ecosystem using Python (Pandas)
 for data cleaning and preprocessing, and MySQL for exploratory data analysis, business reporting, and insight generation.
@@ -7,7 +7,7 @@ through systematic data cleaning, SQL analysis, and documentation.
 
 ---
 
-# Table of Contents
+## Table of Contents
 
 - Project Overview
 - Objectives
@@ -28,7 +28,7 @@ through systematic data cleaning, SQL analysis, and documentation.
 - Author
 
 
-# Project Overview
+## Project Overview
 
 Startup funding data often contains inconsistent formatting, missing values, duplicated entities, encoding problems, and
 mixed data types that prevent meaningful analysis. The objective of this project was not only to answer business questions
@@ -40,7 +40,7 @@ encountered during data cleaning and the reasoning behind each correction.
 
 ---
 
-# Objectives
+## Objectives
 
 The primary objectives of this project were:
 
@@ -54,7 +54,7 @@ The primary objectives of this project were:
 
 ---
 
-# Dataset Information
+## Dataset Information
 Dataset: Indian Startup Funding Dataset
 
 Contains startup funding transactions between 2015 and 2020.
@@ -76,7 +76,7 @@ covering hundreds of startups, investors, industries, and cities.
 
 ---
 
-# Technology Stack
+## Technology Stack
 
 ## Python
 
@@ -106,7 +106,7 @@ Used for:
 
 ---
 
-# Data Cleaning & Preprocessing
+## Data Cleaning & Preprocessing
 
 Several real-world data quality issues were identified and resolved during the project.
 
@@ -157,7 +157,7 @@ CloudCherry
 
 ---
 
-# Database Design
+## Database Design
 
 Table:
 
@@ -177,7 +177,7 @@ Major columns:
 
 ---
 
-# SQL Concepts Demonstrated
+## SQL Concepts Demonstrated
 
 This project demonstrates practical usage of:
 
@@ -200,7 +200,7 @@ This project demonstrates practical usage of:
 
 ---
 
-# Exploratory Data Analysis
+## Exploratory Data Analysis
 
 The project performs several levels of analysis.
 
@@ -245,7 +245,7 @@ The project performs several levels of analysis.
 
 ---
 
-# Business Questions Answered
+## Business Questions Answered
 
 The project answers business-oriented SQL questions, including:
 
@@ -259,7 +259,7 @@ The project answers business-oriented SQL questions, including:
 
 ---
 
-# Key Insights
+## Key Insights
 
 Some major findings include:
 
@@ -272,7 +272,7 @@ Some major findings include:
 - Several investors appear across multiple industries.
 
 ---
-# Challenges Faced
+## Challenges Faced
 
 During this project, several practical challenges were encountered:
 
@@ -283,7 +283,7 @@ During this project, several practical challenges were encountered:
 - Removing escaped prefixes (`\xc2\xa0`) from startup names.
 - Deciding when to standardize records and when to preserve original values.
 
-# Data Quality Challenges
+## Data Quality Challenges
 
 The project encountered several practical challenges including:
 
@@ -299,7 +299,7 @@ Each issue was investigated before applying targeted corrections.
 
 ---
 
-# Limitations
+## Limitations
 
 Some limitations remain intentionally documented:
 
@@ -310,7 +310,7 @@ Some limitations remain intentionally documented:
 
 ---
 
-# Skills Demonstrated
+## Skills Demonstrated
 
 - Data Cleaning
 - Data Validation
@@ -323,7 +323,7 @@ Some limitations remain intentionally documented:
 - GitHub
 
 ---
-# Lessons Learned
+## Lessons Learned
 
 This project provided practical experience in working with real-world data rather than perfectly cleaned datasets.
 
@@ -335,14 +335,3 @@ Some of the major lessons learned include:
 - Debugging encoding problems using HEX(), LENGTH(), CHAR_LENGTH(), and SUBSTRING().
 - Applying aggregate functions and GROUP BY to answer business questions.
 - Recognizing the importance of documenting the complete analytical workflow.
-
-# Resume Highlights
-
-- Cleaned and standardized a real-world startup funding dataset using Pandas and MySQL.
-- Designed and executed over 60 SQL queries for exploratory and business analysis.
-- Investigated and resolved multiple real-world data quality issues.
-
----
-
-# Author
-Divya Bariya
