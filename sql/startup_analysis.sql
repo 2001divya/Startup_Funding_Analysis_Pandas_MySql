@@ -525,4 +525,3 @@ FROM startup_clean
 WHERE investment_type IS NOT NULL
 AND startup_name IS NOT NULL
 ORDER BY amount_usd DESC LIMIT 20;
-
