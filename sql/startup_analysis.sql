@@ -526,14 +526,3 @@ WHERE investment_type IS NOT NULL
 AND startup_name IS NOT NULL
 ORDER BY amount_usd DESC LIMIT 20;
 
--- Q62 : Executive Summary (No SQL)
-
--- Write observations such as:
-
--- Top startup ecosystem
--- Top investors
--- Top industries
--- Funding trends
--- Data quality issues
--- Key conclusions
--- we will do it together as now all the queries are written
