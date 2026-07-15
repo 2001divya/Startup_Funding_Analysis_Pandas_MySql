@@ -335,3 +335,4 @@ Some of the major lessons learned include:
 - Debugging encoding problems using HEX(), LENGTH(), CHAR_LENGTH(), and SUBSTRING().
 - Applying aggregate functions and GROUP BY to answer business questions.
 - Recognizing the importance of documenting the complete analytical workflow.
+
